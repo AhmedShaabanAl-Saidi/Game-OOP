@@ -27,7 +27,7 @@ h6 {
   bottom: 1.875rem;
   width: 3rem;
   height: 3rem;
-  background-color: #3A497B;
+  background-color: #3a497b;
   cursor: pointer;
 }
 
@@ -246,9 +246,4 @@ body {
 
 .game-details i:hover {
   color: rgba(255, 0, 0, 0.7);
-}
-
-.screenshots img{
-  width: 300px;
-  height: 300px;
 }
