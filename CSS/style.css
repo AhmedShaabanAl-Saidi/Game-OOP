@@ -247,3 +247,8 @@ body {
 .game-details i:hover {
   color: rgba(255, 0, 0, 0.7);
 }
+
+.screenshots img{
+  width: 300px;
+  height: 300px;
+}
