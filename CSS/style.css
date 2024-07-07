@@ -18,12 +18,6 @@ h6 {
   object-fit: cover;
 }
 
-.modal-body img{
-  width: 60rem;
-  height: 37.5rem;
-  object-fit: cover;
-}
-
 /* arrow */
 .arrow {
   display: none;
@@ -261,4 +255,14 @@ body {
 /* img slider */
 .screenshots img{
   cursor: pointer;
+}
+
+.modal-body img{
+  width: 60rem;
+  height: 37.5rem;
+  object-fit: cover;
+}
+
+.screenshots-img{
+  height: 18.75rem;
 }

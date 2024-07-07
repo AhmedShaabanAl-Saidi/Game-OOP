@@ -45,7 +45,7 @@ export class GetDetails {
 
     // Iterate through screenshots data and construct HTML for each screenshot
     for (let i = 0; i < response.screenshots.length; i++) {
-      screenshots += `<div class="py-4 px-2"><img class="w-100 img-fluid object-fit-cover" src="${response.screenshots[i].image}" alt="screenshots-img" role="button"
+      screenshots += `<div class="py-4 px-2"><img class="screenshots-img w-100 object-fit-cover" src="${response.screenshots[i].image}" alt="screenshots-img" role="button"
       data-bs-toggle="modal" data-bs-target="#exampleModal${i}">
       <!-- Modal -->
       <div class="modal fade" id="exampleModal${i}" tabindex="-1"
