@@ -52,7 +52,7 @@ export class GetDetails {
       aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-xl">
       <div class="modal-body d-flex justify-content-center align-items-center">
-      <img src="${response.screenshots[i].image}" class="img-fluid" alt="screenshots-img-model">
+      <img src="${response.screenshots[i].image}" alt="screenshots-img-model">
       </div>
       </div>
       </div>

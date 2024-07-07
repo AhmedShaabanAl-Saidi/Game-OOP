@@ -18,6 +18,12 @@ h6 {
   object-fit: cover;
 }
 
+.modal-body img{
+  width: 60rem;
+  height: 37.5rem;
+  object-fit: cover;
+}
+
 /* arrow */
 .arrow {
   display: none;
