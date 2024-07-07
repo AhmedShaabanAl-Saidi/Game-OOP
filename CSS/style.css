@@ -72,6 +72,10 @@ body {
   .game-details h3 {
     margin-top: 20px;
   }
+
+  .screenshots{
+    display: none !important;
+  }
 }
 
 /* loading */
@@ -246,4 +250,9 @@ body {
 
 .game-details i:hover {
   color: rgba(255, 0, 0, 0.7);
+}
+
+/* img slider */
+.screenshots img{
+  cursor: pointer;
 }

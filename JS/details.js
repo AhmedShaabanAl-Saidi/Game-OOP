@@ -45,7 +45,18 @@ export class GetDetails {
 
     // Iterate through screenshots data and construct HTML for each screenshot
     for (let i = 0; i < response.screenshots.length; i++) {
-      screenshots += `<div class="py-4 px-2"><img class="w-100 img-fluid object-fit-cover" src="${response.screenshots[i].image}" alt="screenshots-img"></div>`;
+      screenshots += `<div class="py-4 px-2"><img class="w-100 img-fluid object-fit-cover" src="${response.screenshots[i].image}" alt="screenshots-img" role="button"
+      data-bs-toggle="modal" data-bs-target="#exampleModal${i}">
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal${i}" tabindex="-1"
+      aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+      <div class="modal-body d-flex justify-content-center align-items-center">
+      <img src="${response.screenshots[i].image}" class="img-fluid" alt="screenshots-img-model">
+      </div>
+      </div>
+      </div>
+      </div>`;
     }
 
     // Insert game details HTML into designated elements in the DOM
